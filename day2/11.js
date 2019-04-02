@@ -7,7 +7,11 @@ fs.readFile("./views/index.ejs", function(err, data){
 
     var html = ejs.render(template, dic);
 
+    console.log(template);
+
     console.log(html);
+
+    //console.log(html);
 });
 
 /*
